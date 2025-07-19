@@ -214,7 +214,7 @@ export default function UserProfile() {
 
         <div
           ref={scrollContainerRef}
-          className="h-[400px] overflow-auto px-4 pb-5 lg:h-[500px]"
+          className="h-[400px] overflow-auto px-4 pb-5 lg:h-[500px] bg-gray-100"
         >
           {chat?.messages.length === 0 && !loading && (
             <p className="mt-10 text-center text-sm text-gray-400 lg:text-[22px]">
